@@ -315,7 +315,6 @@ def getStreamUrl(id,live=False):
         cc = cc.items()
 
         cc = sorted(cc,key=s,reverse=True)
-        xbmc.log(str(cc),xbmc.LOGNOTICE)
         m_url = ''
         other_playable_url = []
 
